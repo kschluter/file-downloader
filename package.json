@@ -1,0 +1,30 @@
+{
+  "name": "file-downloader",
+  "version": "0.0.1",
+  "description": "A command line utility for downloading files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kschluter/file-downloader.git"
+  },
+  "keywords": [
+    "download",
+    "downloader",
+    "console",
+    "cli"
+  ],
+  "author": "Kory Schluter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kschluter/file-downloader/issues"
+  },
+  "homepage": "https://github.com/kschluter/file-downloader#readme",
+  "dependencies": {
+    "inquirer": "^4.0.2",
+    "request": "^2.83.0"
+  }
+}
