@@ -8,6 +8,9 @@
 # Clone repo
 git clone https://github.com/kschluter/file-downloader.git
 
+# Install dependencies
+npm install
+
 # Run start script
 npm run start
 ```

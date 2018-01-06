@@ -30,7 +30,6 @@ module.exports = function(args) {
                   process.stdout.cursorTo(0);
                   process.stdout.write(`Downloaded file ${currentFile} to ${a.endingFile} ...`);  
                   if (currentFile == a.endingFile) {
-                    console.log('Calling resolve');
                     resolve(args);
                   } else {
                     a.downloadOrder === 'Asc' ? currentFile++ : currentFile--;
